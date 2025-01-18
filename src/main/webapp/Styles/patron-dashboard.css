@@ -1,0 +1,119 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000; /* Matrix-style black background */
+    color: #00ff41; /* Neon green text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #00ff41;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #00ff41;
+    text-shadow: 0 0 10px #00ff41;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #00ff41;
+}
+
+form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00ff41;
+    border-radius: 5px;
+    background-color: #000;
+    color: #00ff41;
+    outline: none;
+    box-shadow: 0 0 5px #00ff41;
+    margin-bottom: 15px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: #00ff41;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #007f20;
+    transform: scale(1.1);
+}
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px #00ff41;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #00ff41;
+    color: #00ff41;
+}
+
+table th {
+    background-color: #001900;
+    text-shadow: 0 0 5px #00ff41;
+}
+
+table td {
+    background-color: #000;
+}
+
+table tr:hover {
+    background-color: #002f00;
+}
+
+
+p[style="color: red;"] {
+    color: #ff0000 !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bHistoryTable {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    border: 1px solid #00ff41;
+    background-color: #000;
+    color: #00ff41;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00ff41;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: 0 0 5px #00ff41;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007f20;
+}

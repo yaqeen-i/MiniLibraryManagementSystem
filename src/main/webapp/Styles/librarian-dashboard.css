@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #880808;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Titles */
+section h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+/* Forms and Buttons */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #AA4A44;
+    color: white;
+}
+td {
+    background-color: #FEEAEB;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form {
+    margin: 10px 0;
+}
+
+form input, form select {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    background-color: #FEF3F6;
+    border: red;
+    border-radius: 5px;
+    padding: 10px;
+}
