@@ -1,6 +1,6 @@
 # MiniLibraryManagementSystem
 
-This Project is intended to give me a slight expertise in JavaEE (JakartaEE currently) using Java Servlets, JavaServer Pages. This project is a Library management system with Role-Based Access (Admin, Librarian and Patron). 
+This Project is intended to give me a slight expertise in JavaEE using Java Servlets, JavaServer Pages. This project is a Library management system with Role-Based Access (Admin, Librarian and Patron). 
 
 An Admin oversees the system, Admin can see, edit, delete both books or users information.
 
